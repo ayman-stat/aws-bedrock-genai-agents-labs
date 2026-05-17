@@ -30,6 +30,7 @@ Install dependencies:
 
 ```bash
 pip install -r requirements.txt
+pip install -e .
 ```
 
 Configure AWS credentials using one of the standard AWS SDK methods:
