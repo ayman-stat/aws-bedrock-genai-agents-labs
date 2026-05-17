@@ -1,0 +1,22 @@
+.venv/
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.ipynb_checkpoints/
+
+.env
+.env.*
+!.env.example
+
+outputs/
+sample_outputs/
+*.log
+
+# AWS local files should stay outside repos.
+.aws/
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.vscode/
