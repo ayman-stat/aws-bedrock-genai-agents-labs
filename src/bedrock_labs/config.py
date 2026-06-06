@@ -4,6 +4,7 @@ from __future__ import annotations
 
 import os
 from dataclasses import dataclass
+from typing import Any
 
 import boto3
 from dotenv import load_dotenv
@@ -33,15 +34,22 @@ def load_config() -> BedrockConfig:
     )
 
 
-def bedrock_client(region_name: str | None = None):
-    """Create a Bedrock control-plane client."""
+def bedrock_client(region_name: str | None = None) -> Any:
+    """Create a Bedrock control-plane client.
+
+    Returns a boto3 Bedrock client. The return type is platform-specific so it
+    is annotated as `Any`.
+    """
 
     config = load_config()
     return boto3.client("bedrock", region_name=region_name or config.region)
 
 
-def bedrock_runtime_client(region_name: str | None = None):
-    """Create a Bedrock Runtime client used for model inference."""
+def bedrock_runtime_client(region_name: str | None = None) -> Any:
+    """Create a Bedrock Runtime client used for model inference.
+
+    Returns a boto3 Bedrock Runtime client (typed as `Any`).
+    """
 
     config = load_config()
     return boto3.client("bedrock-runtime", region_name=region_name or config.region)
