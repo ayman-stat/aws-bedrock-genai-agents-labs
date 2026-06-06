@@ -26,9 +26,7 @@ labs/01-invoke-foundation-model/prompts/business_summary_prompt.md
 
 ## Additional References
 
-- `docs/amazon_bedrock_endpoints_and_apis.md`: endpoint and API reference for Bedrock control plane, runtime, streaming, async invoke, and batch job usage.
--- `notebooks/genai-exercise1-bedrock-api-overview.ipynb`: notebook covering `InvokeModel`, streaming inference, `StartAsyncInvoke`, and batch job examples.
--- `notebooks/genai-exercise1-bedrock-batch.ipynb`: notebook covering batch model invocation jobs, job polling, and S3 output handling.
+-- `notebooks/bedrock_cleaned_examples.ipynb`: consolidated notebook covering `InvokeModel`, streaming inference, `StartAsyncInvoke`, and batch job examples.
 
 ## Setup
 

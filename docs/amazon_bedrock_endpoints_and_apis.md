@@ -220,5 +220,4 @@ def safe_model_invoke(prompt, model_id):
 This repo now provides:
 
 - `docs/amazon_bedrock_endpoints_and_apis.md`
-- `notebooks/genai-exercise1-bedrock-api-overview.ipynb`
-- `notebooks/genai-exercise1-bedrock-batch.ipynb`
+- `notebooks/bedrock_cleaned_examples.ipynb` (consolidated examples)
