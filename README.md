@@ -40,9 +40,14 @@ src/bedrock_labs/                 Reusable Python utilities and runnable example
 labs/01-invoke-foundation-model/  Course 1 lab: invoke a foundation model
 labs/02-amazon-q-developer/       Placeholder for Amazon Q Developer practice
 labs/03-bedrock-guardrails/       Placeholder for Bedrock Guardrails practice
+coursework/                       Restudy workspace for course-by-course code before polishing
 notes/                            Original study notes and reflections
 docs/                             Security, responsible AI, and setup notes
 ```
+
+## Restudy Workspace
+
+While restudying the certificate, new rough code and personal notes can start under [coursework](coursework/). Once an exercise becomes clean enough for portfolio review, reusable code should move into `src/bedrock_labs/` and polished demos should move into `labs/`.
 
 ## Quick Start
 
