@@ -34,8 +34,8 @@ Implemented examples:
 New reference assets:
 
 - `docs/amazon_bedrock_endpoints_and_apis.md`: Bedrock endpoint definitions, API patterns, best practices, and request examples.
-- `genai-exercise1-bedrock-api-overview.ipynb`: hands-on notebook for `InvokeModel`, streaming response, async invoke, and batch job examples.
-- `genai-exercise1-bedrock-batch.ipynb`: hands-on notebook for batch job submission, polling, and asynchronous job patterns.
+-- `notebooks/genai-exercise1-bedrock-api-overview.ipynb`: hands-on notebook for `InvokeModel`, streaming response, async invoke, and batch job examples.
+-- `notebooks/genai-exercise1-bedrock-batch.ipynb`: hands-on notebook for batch job submission, polling, and asynchronous job patterns.
 
 Start here: [labs/01-invoke-foundation-model](labs/01-invoke-foundation-model/)
 
