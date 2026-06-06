@@ -31,6 +31,12 @@ Implemented examples:
 - Invoke a model using the native `InvokeModel` API payload for Amazon Nova.
 - Keep credentials out of the repository through local AWS configuration and environment variables.
 
+New reference assets:
+
+- `docs/amazon_bedrock_endpoints_and_apis.md`: Bedrock endpoint definitions, API patterns, best practices, and request examples.
+- `genai-exercise1-bedrock-api-overview.ipynb`: hands-on notebook for `InvokeModel`, streaming response, async invoke, and batch job examples.
+- `genai-exercise1-bedrock-batch.ipynb`: hands-on notebook for batch job submission, polling, and asynchronous job patterns.
+
 Start here: [labs/01-invoke-foundation-model](labs/01-invoke-foundation-model/)
 
 ## Repository Structure

@@ -62,6 +62,17 @@ Amazon Bedrock Runtime is the API surface used to send prompts to foundation mod
 - `Converse`: a unified message-oriented interface for supported models.
 - `InvokeModel`: a model-native interface where the request/response shape depends on the model provider.
 
+## Amazon Bedrock Endpoints and API Reference
+
+This repo now includes a dedicated Bedrock API reference document that explains the control-plane and data-plane endpoints used in the course.
+
+- `bedrock`: control-plane endpoint for model and resource management.
+- `bedrock-runtime`: data-plane endpoint for real-time inference.
+- `bedrock-agent`: control-plane endpoint for agent, prompt template, knowledge base, and flow configuration.
+- `bedrock-agent-runtime`: data-plane endpoint for real-time agent execution.
+
+See `docs/amazon_bedrock_endpoints_and_apis.md` for examples of `InvokeModel`, `InvokeModelWithResponseStream`, `StartAsyncInvoke`, `CreateModelInvocationJob`, and recommended handling patterns.
+
 ### Model ID
 
 The model ID identifies the foundation model, inference profile, prompt, provisioned throughput, or custom model target. This repo defaults to:
